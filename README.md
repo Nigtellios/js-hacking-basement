@@ -11,7 +11,7 @@ It's this one and only place in the web where I'm going to test some things base
 - Bootstrap v5
 
 ## Back-end
-- Node.JS (v15) (Express.JS [+ CORS, BodyParser]) 
+- Node.JS (v15) (Express.JS [+ CORS, BodyParser])
 - `Database-like` JSON file with some content
 
 ## Builders etc.
