@@ -1,6 +1,6 @@
 # JS Hacking Basement
 
-Project is based on JetBrains HTML Boilerplate, note that files may be changed (or just deleted) in order to keep it as clean as possible
+Project is based on overment Node.JS Boilerplate, I've deleted moongose, static environment configuration and mongoDB to simplify things.
 
 It's this one and only place in the web where I'm going to test some things based on JS injection techniques, like:
 
@@ -9,15 +9,16 @@ It's this one and only place in the web where I'm going to test some things base
 - testing some things related to loading injected content or its communication between server side
 
 ## Front-end
-- HTML, CSS (SASS), JavaScript (+ jQuery to refresh jQ knowledge)
-- Bootstrap v5
+- PUG JS HTML Template Engine
+
 
 ## Back-end
+Backend is created by me in these technologies:
 - Node.JS (v15) (Express.JS [+ CORS, BodyParser])
 - `Database-like` JSON file with some content
 
-## Builders etc.
-- Parcel.JS
+## Builders, runners etc.
+- Babel, Nodemon
 
 ## How to use it?
 
@@ -25,14 +26,36 @@ Front-end is running at port 1234, while backend on 1235. Make sure they aren't 
 
 Download the files anywhere that you want and:
 
+### Building project
+
 ```npm
 npm install
 ```
 
-Note that because I'm using Parcel JS with Node, I had to install `concurrently` package.
-
-Then to run both server and front-end use:
+Now run pre-start script:
 
 ```npm
-npm run start-both
+npm run prestart
+```
+
+### Running dist version
+
+For creating `dist` you can use:
+
+```npm
+npm run build
+```
+
+To run dist version of server after use:
+
+```npm
+npm run start
+```
+
+### Running development (src) version
+
+To run development process simply use:
+
+```npm
+npm run dev
 ```
