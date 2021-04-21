@@ -3,9 +3,10 @@ import { join } from 'path';
 import { notFound, catchErrors } from './middlewares/errors';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import register from 'babel-core/register';
-import babelPolyfill from 'babel-polyfill';
 
+/* Unused imports
+import register from 'babel-core/register';
+import babelPolyfill from 'babel-polyfill'; */
 /* Old, unused imports and configs:
 // import config from './config/config';
 
