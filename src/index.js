@@ -24,6 +24,8 @@ import babelPolyfill from 'babel-polyfill'; */
 
 */
 
+const what = 'what';
+
 const app = express();
 const port = 1235;
 
