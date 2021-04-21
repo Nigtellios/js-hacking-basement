@@ -9,8 +9,7 @@ It's this one and only place in the web where I'm going to test some things base
 - testing some things related to loading injected content or its communication between server side
 
 ## Front-end
-- HTML, CSS (SASS), JavaScript (+ jQuery to refresh jQ knowledge)
-- Bootstrap v5
+- HTML, CSS (SASS), JavaScript
 
 ## Back-end
 - Node.JS (v15) (Express.JS [+ CORS, BodyParser])
