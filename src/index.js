@@ -1,15 +1,13 @@
 import express from 'express';
 import { join } from 'path';
+import config from './config/config';
 import { notFound, catchErrors } from './middlewares/errors';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-
-/* Unused imports
 import register from 'babel-core/register';
-import babelPolyfill from 'babel-polyfill'; */
-/* Old, unused imports and configs:
-// import config from './config/config';
+import babelPolyfill from 'babel-polyfill';
 
+/* Old, unused imports and configs:
 // DataBase Connection (we don't have database here)
 // // Connect to database
 // import dbConfig from './config/database';
@@ -21,7 +19,6 @@ import babelPolyfill from 'babel-polyfill'; */
 //     console.log('Could not connect to the database. Exiting now...');
 //     process.exit();
 // });
-
 */
 
 const app = express();

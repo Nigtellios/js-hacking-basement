@@ -6,8 +6,8 @@
   "scripts": {
     "build": "rimraf ./dist && babel ./src -d ./dist",
     "prestart": "npm run -s build",
-    "start": "SET NODE_ENV=production & node dist/index.js",
-    "dev": "SET NODE_ENV=development & nodemon -w ./src --exec \"babel-node ./src\""
+    "start": "SET NODE_ENV=production & set PORT=8081 & node dist/index.js",
+    "dev": "SET NODE_ENV=development & set PORT=8081 & nodemon -w ./src --exec \"babel-node ./src\""
   },
   "keywords": [],
   "author": "",
